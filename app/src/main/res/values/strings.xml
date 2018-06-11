@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Genova Tour App</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Center">Center</string>
+    <string name="West">West</string>
+    <string name="East">East</string>
+    <string name="OldCity">Old City</string>
+    <string name="Welcome">Welcome</string>
+    <string name="genova">Welcome to the Genova Tour App! </string>
+   <string name="genova1">Genova is the capital of the Italian region of Liguria and the sixth-largest city in Italy. in 2015 became the Metropolitan City of Genoa, counted 855,834 resident persons.Over 1.5 million people live in the wider metropolitan area stretching along the Italian Riviera</string>
+    <string name="mapfind">find it on a map</string>
+    <string name="loremipsum">Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat</string>
+
+</resources>

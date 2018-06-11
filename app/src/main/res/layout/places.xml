@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffff8d"
+    tools:context=".MainActivity"
+    android:padding="@dimen/padding">
+
+
+    <ImageView
+        android:id="@+id/photo"
+        android:layout_width="@dimen/photo"
+        android:layout_height="@dimen/photo"
+        android:layout_alignBottom="@id/descriptionPlace"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@id/location"
+        tools:src="@drawable/genovaflag" />
+
+    <TextView
+        android:id="@+id/namePlace"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/descriptionMargin"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/namePlaceText"
+        tools:text="@string/app_name" />
+
+    <TextView
+        android:id="@+id/descriptionPlace"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@id/namePlace"
+        android:layout_margin="@dimen/descriptionMargin"
+        android:layout_toStartOf="@id/photo"
+        android:textSize="@dimen/descriptionText"
+        tools:text="@string/loremipsum" />
+
+    <TextView
+        android:id="@+id/location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/namePlace"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="@dimen/descriptionMargin"
+        android:text="@string/mapfind"
+        android:textSize="@dimen/descriptionText" />
+
+</RelativeLayout>

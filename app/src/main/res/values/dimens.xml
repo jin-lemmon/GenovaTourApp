@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="descriptionText">14sp</dimen>
+    <dimen name="namePlaceText">20sp</dimen>
+    <dimen name="photo">100dp</dimen>
+    <dimen name="descriptionMargin">5dp</dimen>
+    <dimen name="marginFlag">20dp</dimen>
+    <dimen name="wel.message">20sp</dimen>
+    <dimen name="padding">8dp</dimen>
+</resources>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:layout_marginTop="@dimen/marginFlag"
+        android:layout_marginBottom="@dimen/marginFlag"
+        android:id="@+id/photo"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/photo"
+        android:layout_below="@id/namePlace"
+        android:src="@drawable/genovaflag" />
+
+    <TextView
+        android:layout_marginTop="@dimen/marginFlag"
+        android:id="@+id/namePlace"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/descriptionMargin"
+        android:text="@string/app_name"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/namePlaceText" />
+
+    <TextView
+        android:id="@+id/welcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/photo"
+        android:layout_margin="@dimen/descriptionMargin"
+        android:text="@string/genova"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/wel.message" />
+
+    <TextView
+        android:id="@+id/welcomemessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/welcome"
+        android:layout_margin="@dimen/descriptionMargin"
+        android:text="@string/genova1"
+        android:textSize="@dimen/wel.message" />
+    <TextView
+        android:id="@+id/location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/photo"
+        android:layout_alignParentEnd="true"
+        android:layout_alignBottom="@id/namePlace"
+        android:padding="@dimen/descriptionMargin"
+        android:text="@string/mapfind"
+        android:textSize="@dimen/descriptionText" />
+
+</RelativeLayout>
