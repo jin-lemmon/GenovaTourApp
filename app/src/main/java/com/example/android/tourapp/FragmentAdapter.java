@@ -14,7 +14,6 @@ public class FragmentAdapter extends FragmentPagerAdapter {
         mContext = context;
     }
 
-
     @Override
     public Fragment getItem(int position) {
         if (position == 0) {
@@ -29,7 +28,6 @@ public class FragmentAdapter extends FragmentPagerAdapter {
             return new OldCityFragment();
         }
     }
-
 
     @Override
     public int getCount() {

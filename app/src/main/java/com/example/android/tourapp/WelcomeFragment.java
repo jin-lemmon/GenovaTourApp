@@ -13,7 +13,6 @@ import android.widget.TextView;
 
 public class WelcomeFragment extends Fragment {
 
-
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View locations = inflater.inflate(R.layout.fragment_welcome, container, false);
@@ -21,9 +20,9 @@ public class WelcomeFragment extends Fragment {
         coordinates.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Uri gmmIntentUri = Uri.parse("https://goo.gl/maps/suVms6Cco4J2");
+                Uri gmmIntentUri = Uri.parse(getString(R.string.welcomeLoc));
                 Intent mapIntent = new Intent(Intent.ACTION_VIEW, gmmIntentUri);
-                mapIntent.setPackage("com.google.android.apps.maps");
+                mapIntent.setPackage(getString(R.string.welcomPack));
                 startActivity(mapIntent);
             }
         });

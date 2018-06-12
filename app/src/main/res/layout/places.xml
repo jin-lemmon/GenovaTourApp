@@ -7,7 +7,6 @@
     tools:context=".MainActivity"
     android:padding="@dimen/padding">
 
-
     <ImageView
         android:id="@+id/photo"
         android:layout_width="@dimen/photo"
