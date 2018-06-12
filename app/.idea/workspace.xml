@@ -86,22 +86,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="OldCityFragment.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="OldCityFragment.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/example/android/tourapp/OldCityFragment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="5" lean-forward="false" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+            <state relative-caret-position="187">
+              <caret line="23" column="171" lean-forward="false" selection-start-line="23" selection-start-column="171" selection-end-line="23" selection-end-column="171" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#654#671#0" expanded="true" />
-                <element signature="e#850#877#0" expanded="true" />
-                <element signature="e#997#1057#0" expanded="true" />
-                <element signature="e#1069#1100#0" expanded="true" />
-                <element signature="e#1214#1271#0" expanded="true" />
-                <element signature="e#1283#1311#0" expanded="true" />
-                <element signature="e#1352#1405#0" expanded="true" />
-                <element signature="e#1425#1454#0" expanded="true" />
-                <element signature="e#1466#1494#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -135,11 +127,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WestFragment.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="WestFragment.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/example/android/tourapp/WestFragment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="15" column="3" lean-forward="false" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
+            <state relative-caret-position="306">
+              <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -173,9 +165,13 @@
       <file leaf-file-name="CenterFragment.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/example/android/tourapp/CenterFragment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="180">
+              <caret line="25" column="98" lean-forward="false" selection-start-line="25" selection-start-column="92" selection-end-line="25" selection-end-column="98" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#762#795#0" expanded="true" />
+                <element signature="e#807#839#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -2249,15 +2245,15 @@
         <option value="$PROJECT_DIR$/src/main/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/android/tourapp/LocationAdapter.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/android/tourapp/FragmentAdapter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/example/android/tourapp/OldCityFragment.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/android/tourapp/WelcomeFragment.java" />
         <option value="$PROJECT_DIR$/src/main/res/layout/places.xml" />
         <option value="$PROJECT_DIR$/build.gradle" />
-        <option value="$PROJECT_DIR$/src/main/java/com/example/android/tourapp/CenterFragment.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/android/tourapp/EastFragment.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/android/tourapp/MainActivity.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/android/tourapp/PointOfInterestAdapter.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/android/tourapp/WestFragment.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/android/tourapp/CenterFragment.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/android/tourapp/OldCityFragment.java" />
       </list>
     </option>
   </component>
@@ -2423,7 +2419,7 @@
       <module name="" />
       <envs />
     </configuration>
-    <configuration name="app [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="app [clean]" type="GradleRunConfiguration" factoryName="Gradle">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -2524,11 +2520,6 @@
       <item index="0" class="java.lang.String" itemvalue="Android App.app" />
       <item index="1" class="java.lang.String" itemvalue="Gradle.app [clean]" />
     </list>
-    <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Gradle.app [clean]" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -2639,7 +2630,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="32" column="148" lean-forward="false" selection-start-line="32" selection-start-column="148" selection-end-line="32" selection-end-column="148" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#762#795#0" expanded="true" />
+            <element signature="e#807#839#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2661,14 +2656,6 @@
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#654#671#0" expanded="true" />
-            <element signature="e#850#877#0" expanded="true" />
-            <element signature="e#997#1057#0" expanded="true" />
-            <element signature="e#1069#1100#0" expanded="true" />
-            <element signature="e#1214#1271#0" expanded="true" />
-            <element signature="e#1283#1311#0" expanded="true" />
-            <element signature="e#1352#1405#0" expanded="true" />
-            <element signature="e#1425#1454#0" expanded="true" />
-            <element signature="e#1466#1494#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2754,7 +2741,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="595">
           <caret line="48" column="1" lean-forward="true" selection-start-line="48" selection-start-column="1" selection-end-line="48" selection-end-column="1" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#762#795#0" expanded="true" />
+            <element signature="e#807#839#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2807,7 +2798,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#762#795#0" expanded="true" />
+            <element signature="e#807#839#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2826,14 +2821,6 @@
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#654#671#0" expanded="true" />
-            <element signature="e#850#877#0" expanded="true" />
-            <element signature="e#997#1057#0" expanded="true" />
-            <element signature="e#1069#1100#0" expanded="true" />
-            <element signature="e#1214#1271#0" expanded="true" />
-            <element signature="e#1283#1311#0" expanded="true" />
-            <element signature="e#1352#1405#0" expanded="true" />
-            <element signature="e#1425#1454#0" expanded="true" />
-            <element signature="e#1466#1494#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2955,14 +2942,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/android/tourapp/CenterFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/example/android/tourapp/EastFragment.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
@@ -2986,25 +2965,6 @@
         <state relative-caret-position="51">
           <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/android/tourapp/OldCityFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="5" lean-forward="false" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#654#671#0" expanded="true" />
-            <element signature="e#850#877#0" expanded="true" />
-            <element signature="e#997#1057#0" expanded="true" />
-            <element signature="e#1069#1100#0" expanded="true" />
-            <element signature="e#1214#1271#0" expanded="true" />
-            <element signature="e#1283#1311#0" expanded="true" />
-            <element signature="e#1352#1405#0" expanded="true" />
-            <element signature="e#1425#1454#0" expanded="true" />
-            <element signature="e#1466#1494#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -3045,10 +3005,33 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/example/android/tourapp/WestFragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="15" column="3" lean-forward="false" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
+        <state relative-caret-position="306">
+          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/android/tourapp/CenterFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="25" column="98" lean-forward="false" selection-start-line="25" selection-start-column="92" selection-end-line="25" selection-end-column="98" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#762#795#0" expanded="true" />
+            <element signature="e#807#839#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/android/tourapp/OldCityFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="23" column="171" lean-forward="false" selection-start-line="23" selection-start-column="171" selection-end-line="23" selection-end-column="171" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#654#671#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -21,7 +21,7 @@ public class OldCityFragment extends Fragment {
                              Bundle savedInstanceState) {
         View locations = inflater.inflate(R.layout.frag, container, false);
         final ArrayList<PointOfInterest> poi = new ArrayList<PointOfInterest>();
-        poi.add(new PointOfInterest(getString(com.example.android.tourapp.R.string.erbe), R.drawable.erbe, getString(com.example.android.tourapp.R.string.erbeDesc), Uri.parse(getString(R.string.erbeLoc))));
+        poi.add(new PointOfInterest(getString(com.example.android.tourapp.R.string.erbe), R.drawable.erbe,"\n\n"+ getString(com.example.android.tourapp.R.string.erbeDesc)+"\n\n", Uri.parse(getString(R.string.erbeLoc))));
         poi.add(new PointOfInterest(getString(com.example.android.tourapp.R.string.slorenzo), R.drawable.slorenzo, getString(com.example.android.tourapp.R.string.slorenzoDesc), Uri.parse(getString(R.string.slorenzoLoc))));
         poi.add(new PointOfInterest(getString(com.example.android.tourapp.R.string.archi), R.drawable.archi, getString(com.example.android.tourapp.R.string.archiDesc), Uri.parse(getString(R.string.archiLoc))));
         poi.add(new PointOfInterest(getString(com.example.android.tourapp.R.string.tursi), R.drawable.tursi, getString(R.string.tursiDesc), Uri.parse(getString(R.string.tursiLoc))));

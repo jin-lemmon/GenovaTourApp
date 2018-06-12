@@ -23,7 +23,7 @@ public class CenterFragment extends Fragment {
         final ArrayList<PointOfInterest> poi = new ArrayList<PointOfInterest>();
         poi.add(new PointOfInterest(getString(R.string.deferrari), R.drawable.deferrari, getString(R.string.deferrariDesc), Uri.parse(getString(R.string.deferrariLoc))));
         poi.add(new PointOfInterest(getString(R.string.caste), R.drawable.caste, getString(R.string.casteDesc), Uri.parse(getString(R.string.casteLoc))));
-        poi.add(new PointOfInterest(getString(R.string.xxsettembre), R.drawable.xxsettembre, getString(R.string.xxsettembreDesc), Uri.parse(getString(R.string.xxsettembreLoc))));
+        poi.add(new PointOfInterest(getString(R.string.xxsettembre), R.drawable.xxsettembre,"\n\n"+ getString(R.string.xxsettembreDesc)+"\n\n", Uri.parse(getString(R.string.xxsettembreLoc))));
         poi.add(new PointOfInterest(getString(R.string.carlofelice), R.drawable.carlofelice, getString(R.string.carlofeliceDesc), Uri.parse(getString(R.string.carlofeliceLoc))));
         PointOfInterestAdapter adapter = new PointOfInterestAdapter(getActivity(), poi);
         ListView listView = locations.findViewById(R.id.list);
