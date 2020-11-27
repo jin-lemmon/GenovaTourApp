@@ -13,7 +13,7 @@
         android:layout_width="match_parent"
         android:layout_height="@dimen/photo"
         android:layout_below="@id/namePlace"
-        android:src="@drawable/genovaflag" />
+        android:src="@drawable/genova_flag" />
 
     <TextView
         android:layout_marginTop="@dimen/marginFlag"
@@ -52,6 +52,7 @@
         android:layout_alignBottom="@id/namePlace"
         android:padding="@dimen/descriptionMargin"
         android:text="@string/mapfind"
-        android:textSize="@dimen/descriptionText" />
+        android:textSize="@dimen/descriptionText"
+        android:layout_alignParentRight="true" />
 
 </RelativeLayout>

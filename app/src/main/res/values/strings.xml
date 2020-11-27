@@ -56,5 +56,6 @@
     <string name="carlofeliceLoc">https://goo.gl/maps/Uf3Xp8oUrkJ2</string>
     <string name="welcomeLoc">https://goo.gl/maps/suVms6Cco4J2</string>
     <string name="welcomPack">com.google.android.apps.maps</string>
+    <string name="flag">flag</string>
 
 </resources>

@@ -14,7 +14,9 @@
         android:layout_alignBottom="@id/descriptionPlace"
         android:layout_alignParentEnd="true"
         android:layout_below="@id/location"
-        tools:src="@drawable/genovaflag" />
+        tools:src="@drawable/genova_flag"
+        android:layout_alignParentRight="true"
+        android:contentDescription="@string/flag" />
 
     <TextView
         android:id="@+id/namePlace"
@@ -34,7 +36,9 @@
         android:layout_margin="@dimen/descriptionMargin"
         android:layout_toStartOf="@id/photo"
         android:textSize="@dimen/descriptionText"
-        tools:text="@string/loremipsum" />
+        tools:text="@string/loremipsum"
+        android:layout_alignParentLeft="true"
+        android:layout_toLeftOf="@id/photo" />
 
     <TextView
         android:id="@+id/location"
@@ -44,6 +48,7 @@
         android:layout_alignParentEnd="true"
         android:layout_marginBottom="@dimen/descriptionMargin"
         android:text="@string/mapfind"
-        android:textSize="@dimen/descriptionText" />
+        android:textSize="@dimen/descriptionText"
+        android:layout_alignParentRight="true" />
 
 </RelativeLayout>
